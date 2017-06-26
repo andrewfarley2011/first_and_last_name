@@ -1,11 +1,11 @@
-print "\n"
 
-print "Enter your first name: "
-first = gets
+def first_name(first)
+	puts "My first name is #{first}"
+end
 
-print "\n"
+def last_name(last)
+	puts "My last name is #{last}"
+end
 
-print "Enter your last name: "
-last = gets
-
-print "\n"
+first_name("Andrew")
+last_name("Farley")
